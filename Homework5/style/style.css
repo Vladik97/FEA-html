@@ -1,0 +1,207 @@
+*,
+*:before,
+*:after{
+  box-sizing:border-box; /*   пишется всегда */
+}
+body{
+  min-width: 320px;
+  margin: 0 ;
+}
+.main_block{
+  width: 50%;
+  margin: 5% auto;
+  position: relative;
+  /*background-color: red;*/
+}
+.lab{
+  margin-top: 2% ;   
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px ; 
+  line-height: 25px;
+  color: #33313b ;
+}
+.window{
+  width: 100%;
+  max-width: 100%;
+  min-width: 100%;
+  background-color: #e4ddff;
+  color: #33313b ;
+  border: 0px;
+  padding: 2% ;
+  font-family: 'Merriweather Regular', sans-serif;
+  font-size: 18px ;
+  line-height: 25px;
+}
+select{
+  -webkit-appearance: none;
+  background-image: url("../images.jpg")
+  background-position: right center;
+  background-repeat: no-repeat;
+  line-height: 1em;
+  /* for FF */
+  -moz-appearance: none;
+  text-indent: 0.01px; 
+  text-overflow: '';
+  /* for IE */
+  -ms-appearance: none;
+  appearance: none!important;
+}
+select::-ms-expand {
+  display: none;
+}
+.checkbox{
+  margin-top: 5%;
+  display: flex;
+  justify-content: start;
+}
+#check6{
+  width: 20%;
+  height: 25px;
+  margin:auto 5px;
+}
+.checkbox2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px ; 
+  line-height: 25px;
+  color: #33313b ;
+}
+.red_text{
+  font-family: 'Montserrat', sans-serif;
+  font: 14px/25px sans-serif;
+  color: #e16e69 ;  
+  margin-top: 5%;
+}
+hr{
+  background-color: rgba(31, 49, 59, .2);
+}
+.btn{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.red_btn{
+  font-family: 'Montserrat', sans-serif;
+  font: 14px/25px ;
+  background-color: #e16e69 ;  
+  margin-top: 3%;
+  color: white ;
+  height:50px;
+  padding: 20px 40px;
+  padding-bottom: 35px;
+  border-radius: 25px;
+
+}
+.red_btn:hover {
+    color: #7cc9f0;
+    background-color: #555555;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?g8a7ku');
+  src:  url('../fonts/icomoon.eot?g8a7ku#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?g8a7ku') format('truetype'),
+    url('../fonts/icomoon.woff?g8a7ku') format('woff'),
+    url('../fonts/icomoon.svg?g8a7ku#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-circle-down:before {
+  content: "\ea43";
+}
+.icon-facebook:before {
+  content: "\ea90";
+}
+.icon-instagram:before {
+  content: "\ea92";
+}
+.icon-youtube:before {
+  content: "\ea9d";
+}
+.icon-linkedin2:before {
+  content: "\eaca";
+}
+
+
+.facebook{
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: #fa364a;
+}
+.icon-facebook{
+  font-size :26px;
+  color: white;
+  position: relative;
+  top: 13px;
+  left: 13px;
+}
+.instagram{
+  position: relative;
+  bottom: 66px;
+    left: 60px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: #fa364a;
+}
+.icon-instagram{
+  font-size :26px;
+  color: white;
+  position: relative;
+  top: 13px;
+  left: 13px;
+}
+.linkedin{
+  position: relative;
+  bottom: 70px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: #fa364a;
+}
+.icon-linkedin2{
+  font-size :26px;
+  color: white;
+  position: relative;
+  top: 13px;
+  left: 13px;
+}
+.youtube{
+  position: relative;
+  bottom: 136px;
+    left: 60px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: #fa364a;
+}
+.icon-youtube{
+  font-size :26px;
+  color: white;
+  position: relative;
+  top: 13px;
+  left: 13px;
+}

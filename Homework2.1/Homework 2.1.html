@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link href="https://fonts.googleapis.com/css?family=Muli:900" rel="stylesheet">
+	<style>
+		*,
+		*:before,
+		*:after{
+ 		box-sizing:border-box; /*   пишется всегда */
+ 		}
+		body{
+			margin: 0;
+		}
+		.conteiner {
+			border: 1px solid black; 
+			width: 100vw;
+			margin: 0 auto;
+		/*	padding: 30px;*/ 
+			background: linear-gradient(to right, #eb5e57 , #f4cc54 );
+		}
+		h1 {
+			font-family: 'Muli', sans-serif;
+			font-size: 4vw ;
+			color: white ;
+			text-align: center;
+    		margin-bottom: 3vw;
+   			margin-top: 5vw;
+		}
+		.holder{
+			width: 85vw;
+			margin: auto;
+			display: flex ;
+			flex-direction: row ;
+			justify-content: space-around ;
+		}
+		.holder1{
+			border: 1px solid black;
+			padding: 50px;
+			width: 276px ;
+			margin: 14px;
+			display: flex ;
+			justify-content:center;
+			align-items:center;	
+			background: white ;
+			margin-bottom: 3vw;	
+		}
+		.holder1:hover {
+       		opacity: 0.3;
+        	filter: alpha(opacity=30);
+      	}
+	</style>
+</head>
+<body>
+		<div class="conteiner">
+			<h1>They trust us</h1>
+			<div class="holder">
+				<a href="#" class="box_1 holder1"><img src="Додатки\image-1.png" ></a>
+				<a href="#" class="box_2 holder1"><img src="Додатки\image-2.png" ></a>
+				<a href="#" class="box_3 holder1"><img src="Додатки\image-3.png" ></a>
+				<a href="#" class="box_4 holder1"><img src="Додатки\image-4.png" ></a>
+		</div>
+	</div>
+</body>
+</html>

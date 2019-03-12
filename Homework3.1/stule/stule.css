@@ -1,0 +1,41 @@
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,600" rel="stylesheet">
+*,
+*:before,
+*:after{
+  box-sizing:border-box; /*   пишется всегда */
+}
+body{
+	margin: 0;
+}
+.backfon{
+		background-image: url("../position-image.jpg");
+		height: 590px;	
+		padding-top: -10px;
+    }
+.manu{
+	font-family: 'Montserrat', sans-serif;
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+	/*align-items: center;*/
+	padding: 50px 200px 30px 200px;
+	margin-bottom: 0;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}    
+.cont{
+	text-decoration: none;
+}
+.dopmenu{
+	font-family: 'Montserrat', sans-serif;
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+
+}
+.btn{
+	text-decoration: none;
+	
+}
+#gfd:hover{
+
+}
